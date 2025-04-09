@@ -1,4 +1,20 @@
+1.
 git status:describe status of files that created on local rep(M,A)...
 git init:create local rep
 git commit:save any change happen on code,..
 git push:move local rep to github reb
+
+2.
+Answer:
+I dont agree, because if another developer recieve files ,instead wasting time to read and khnow what in files,command is ashort sentences describe conclusion of work on this file,
+3:
+a.
+GitLab
+Bitbucket
+b.Distribution version control system.
+c.false
+4.
+instead writing origin main each command,its can be define it for first time,then when i use git push -u ,auto understand that origin main
+
+
+Practical:
