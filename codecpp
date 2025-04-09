@@ -1,0 +1,24 @@
+
+#include <iostream>
+#include<vector>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    vector<int> a(n);
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+        
+    }
+    int freq[1001];
+    for(int i=0;i<n;i++){
+        freq[a[i]]++;
+    }
+    int max=*max_element(freq,freq+1001);
+    if(max>(n+1)/2){
+        cout<<"NO";
+    }
+    else{
+        cout<<"YES";
+    }
+}
