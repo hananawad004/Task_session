@@ -1,0 +1,4 @@
+git status:describe status of files that created on local rep(M,A)...
+git init:create local rep
+git commit:save any change happen on code,..
+git push:move local rep to github reb
