@@ -1,5 +1,5 @@
 1.
-git status:describe status of files that created on local rep(M,A)...
+git status:describe status of files that created on working directory/staging area(M,A)...
 git init:create local rep
 git commit:save any change happen on code,..
 git push:move local rep to github reb
@@ -11,8 +11,9 @@ I dont agree, because if another developer recieve files ,instead wasting time t
 a.
 GitLab
 Bitbucket
-b.Distribution version control system.
-c.false
+b.Collaborative tools like pull requests, merge requests, and issue tracking
+Branch management and access control for teams
+c.true
 4.
 instead writing origin main each command,its can be define it for first time,then when i use git push -u ,auto understand that origin main
 
