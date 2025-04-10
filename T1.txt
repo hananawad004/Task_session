@@ -18,3 +18,14 @@ instead writing origin main each command,its can be define it for first time,the
 
 
 Practical:
+on git bash
+$ git config --global user.name hananawad004
+$ git config --global user.email hananawad004@gmail.com
+$ ssh-keygen -t rsa -b 4096 -C "hananawad004@gmail.com"
+ then add this ssh on github,
+on my vsc 
+git init 
+git add .
+git commit -m "My solution"
+ git remote add origin git@github.com:hananawad004/Task_session.git
+git push -u origin master   
